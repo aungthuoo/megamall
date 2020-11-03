@@ -1,0 +1,68 @@
+[2020-11-03 06:37:24] main.CRITICAL: Invalid template file: 'widget/samplewidget.phtml' in module: 'FoodMall_CustomWidget' block's name: 'widget\samplewidget_0' {"exception":"[object] (Magento\\Framework\\Exception\\ValidatorException(code: 0): Invalid template file: 'widget/samplewidget.phtml' in module: 'FoodMall_CustomWidget' block's name: 'widget\\samplewidget_0' at /usr/share/nginx/magento2/vendor/magento/framework/View/Element/Template.php:280)"} []
+[2020-11-03 06:49:00] main.CRITICAL: The XML in file "/usr/share/nginx/magento2/app/code/FoodMall/CustomWidget/etc/widget.xml" is invalid:
+Element 'parameter', attribute '{http://www.w3.org/2001/XMLSchema-instance}type': The QName value 'textarea' of the xsi:type attribute does not resolve to a type definition.
+Line: 9
+
+Element 'parameter': The type definition is abstract.
+Line: 9
+
+Verify the XML and try again. {"exception":"[object] (Magento\\Framework\\Exception\\LocalizedException(code: 0): The XML in file \"/usr/share/nginx/magento2/app/code/FoodMall/CustomWidget/etc/widget.xml\" is invalid:
+Element 'parameter', attribute '{http://www.w3.org/2001/XMLSchema-instance}type': The QName value 'textarea' of the xsi:type attribute does not resolve to a type definition.
+Line: 9
+
+Element 'parameter': The type definition is abstract.
+Line: 9
+
+Verify the XML and try again. at /usr/share/nginx/magento2/vendor/magento/framework/Config/Reader/Filesystem.php:156)"} []
+[2020-11-03 06:56:20] main.CRITICAL: The XML in file "/usr/share/nginx/magento2/app/code/FoodMall/CustomWidget/etc/widget.xml" is invalid:
+Element 'parameter', attribute '{http://www.w3.org/2001/XMLSchema-instance}type': The QName value 'textarea' of the xsi:type attribute does not resolve to a type definition.
+Line: 9
+
+Element 'parameter': The type definition is abstract.
+Line: 9
+
+Verify the XML and try again. {"exception":"[object] (Magento\\Framework\\Exception\\LocalizedException(code: 0): The XML in file \"/usr/share/nginx/magento2/app/code/FoodMall/CustomWidget/etc/widget.xml\" is invalid:
+Element 'parameter', attribute '{http://www.w3.org/2001/XMLSchema-instance}type': The QName value 'textarea' of the xsi:type attribute does not resolve to a type definition.
+Line: 9
+
+Element 'parameter': The type definition is abstract.
+Line: 9
+
+Verify the XML and try again. at /usr/share/nginx/magento2/vendor/magento/framework/Config/Reader/Filesystem.php:156)"} []
+[2020-11-03 07:00:26] main.CRITICAL: Invalid Document 
+Element 'widget': Missing child element(s). Expected is one of ( description, parameters, containers ).
+Line: 2
+ {"exception":"[object] (Magento\\Framework\\Exception\\LocalizedException(code: 0): Invalid Document 
+Element 'widget': Missing child element(s). Expected is one of ( description, parameters, containers ).
+Line: 2
+ at /usr/share/nginx/magento2/vendor/magento/framework/Config/Reader/Filesystem.php:168)"} []
+[2020-11-03 07:08:25] main.CRITICAL: The XML in file "/usr/share/nginx/magento2/app/code/FoodMall/CustomWidget/etc/widget.xml" is invalid:
+Element 'parameter', attribute '{http://www.w3.org/2001/XMLSchema-instance}type': The QName value 'textarea' of the xsi:type attribute does not resolve to a type definition.
+Line: 9
+
+Element 'parameter': The type definition is abstract.
+Line: 9
+
+Verify the XML and try again. {"exception":"[object] (Magento\\Framework\\Exception\\LocalizedException(code: 0): The XML in file \"/usr/share/nginx/magento2/app/code/FoodMall/CustomWidget/etc/widget.xml\" is invalid:
+Element 'parameter', attribute '{http://www.w3.org/2001/XMLSchema-instance}type': The QName value 'textarea' of the xsi:type attribute does not resolve to a type definition.
+Line: 9
+
+Element 'parameter': The type definition is abstract.
+Line: 9
+
+Verify the XML and try again. at /usr/share/nginx/magento2/vendor/magento/framework/Config/Reader/Filesystem.php:156)"} []
+[2020-11-03 07:18:50] main.CRITICAL: The XML in file "/usr/share/nginx/magento2/app/code/FoodMall/CustomWidget/etc/widget.xml" is invalid:
+Element 'parameter', attribute '{http://www.w3.org/2001/XMLSchema-instance}type': The QName value 'textarea' of the xsi:type attribute does not resolve to a type definition.
+Line: 10
+
+Element 'parameter': The type definition is abstract.
+Line: 10
+
+Verify the XML and try again. {"exception":"[object] (Magento\\Framework\\Exception\\LocalizedException(code: 0): The XML in file \"/usr/share/nginx/magento2/app/code/FoodMall/CustomWidget/etc/widget.xml\" is invalid:
+Element 'parameter', attribute '{http://www.w3.org/2001/XMLSchema-instance}type': The QName value 'textarea' of the xsi:type attribute does not resolve to a type definition.
+Line: 10
+
+Element 'parameter': The type definition is abstract.
+Line: 10
+
+Verify the XML and try again. at /usr/share/nginx/magento2/vendor/magento/framework/Config/Reader/Filesystem.php:156)"} []

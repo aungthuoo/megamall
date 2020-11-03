@@ -1,0 +1,1 @@
+/usr/share/nginx/magento2/vendor/magento/module-adobe-ims/view/adminhtml/web/js/signIn.js
