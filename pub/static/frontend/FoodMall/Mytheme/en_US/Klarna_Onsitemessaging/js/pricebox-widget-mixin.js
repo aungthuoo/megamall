@@ -1,0 +1,1 @@
+/usr/share/nginx/magento2/vendor/klarna/module-onsitemessaging/view/frontend/web/js/pricebox-widget-mixin.js

@@ -1,0 +1,1 @@
+[2020-11-04 05:12:23] marketplace.INFO: Observer_SalesOrderPlaceAfterObserver productSalesCalculation : Warning: count(): Parameter must be an array or an object that implements Countable in /usr/share/nginx/magento2/app/code/Webkul/Marketplace/Observer/SalesOrderPlaceAfterObserver.php on line 603 [] []

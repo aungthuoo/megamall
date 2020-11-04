@@ -1,1 +1,0 @@
-/usr/share/nginx/magento2/lib/web/jquery/fileUploader/jquery.fileuploader.js

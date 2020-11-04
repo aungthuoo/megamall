@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1604388055;s:6:"expire";i:9999999999;s:4:"tags";s:37:"66c_LAYOUT_GENERAL_CACHE_TAG,66c_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1604475176;s:6:"expire";i:9999999999;s:4:"tags";s:37:"66c_LAYOUT_GENERAL_CACHE_TAG,66c_MAGE";}
 <?xml version="1.0"?>
 <layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><handle id="catalog_category_view"><body/>
 </handle><handle id="catalogsearch_advanced_index"><body/>
@@ -8354,11 +8354,24 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1604388055;s:6:"expire";i:9999999999;s:4:"t
    <referenceBlock name="logo">
       <arguments>
          <argument name="logo_file" xsi:type="string">images/mytheme-logo.jpg</argument>
-         <argument name="logo_img_width" xsi:type="number">200</argument>
-         <argument name="logo_img_height" xsi:type="number">200</argument>
+         <argument name="logo_width" xsi:type="number">50</argument>
+         <argument name="logo_height" xsi:type="number">50</argument>
+         <argument name="logo_alt" xsi:type="string">Mega Mall</argument>
       </arguments>
    </referenceBlock>
 </body>
+</handle><handle id="default_head_blocks"><head>
+   <css src="css/custom.css"/>
+   <script src="Magento_Catalog::js/sample1.js"/>
+   <script src="Magento_Catalog/js/sample1.js"/>
+   <script async="" src="Magento_Catalog::js/sample1.js"/>
+   <script defer="" src="Magento_Catalog::js/sample1.js"/>
+   <link src="js/sample.js"/>
+   <link src="sample.js"/>
+   <css src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css" src_type="url"/>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js" src_type="url"/>
+   <link rel="stylesheet" type="text/css" src="http://fonts.googleapis.com/css?family=Montserrat" src_type="url"/>
+</head>
 </handle><layout id="1column"><update handle="empty"/>
 <referenceContainer name="page.wrapper">
    <container name="header.container" as="header_container" label="Page Header Container" htmlTag="header" htmlClass="page-header" before="main.content"/>
