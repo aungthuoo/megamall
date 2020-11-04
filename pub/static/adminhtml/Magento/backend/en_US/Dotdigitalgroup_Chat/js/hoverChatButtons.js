@@ -1,0 +1,1 @@
+/usr/share/nginx/magento2/vendor/dotmailer/dotmailer-magento2-extension-chat/view/adminhtml/web/js/hoverChatButtons.js

@@ -1,0 +1,1 @@
+/usr/share/nginx/magento2/vendor/dotmailer/dotmailer-magento2-extension/view/adminhtml/web/js/datePickerInit.js

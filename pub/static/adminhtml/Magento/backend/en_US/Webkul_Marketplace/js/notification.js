@@ -1,0 +1,1 @@
+/usr/share/nginx/magento2/app/code/Webkul/Marketplace/view/adminhtml/web/js/notification.js
