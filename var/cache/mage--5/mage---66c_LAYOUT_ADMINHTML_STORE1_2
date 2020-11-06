@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1604482111;s:6:"expire";i:9999999999;s:4:"tags";s:37:"66c_LAYOUT_GENERAL_CACHE_TAG,66c_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1604643888;s:6:"expire";i:9999999999;s:4:"tags";s:37:"66c_LAYOUT_GENERAL_CACHE_TAG,66c_MAGE";}
 <?xml version="1.0"?>
 <layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><handle id="adminhtml_dashboard_index"><body>
    <referenceContainer name="content">
@@ -7977,6 +7977,67 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1604482111;s:6:"expire";i:9999999999;s:4:"t
 </handle><handle id="adminhtml_system_config_edit"><head>
    <css src="Klarna_Core::styles.css"/>
 </head>
+</handle><handle id="adminhtml_system_config_edit"><head>
+   <script src="Mageplaza_Core::js/jscolor.min.js"/>
+</head>
+</handle><handle id="mp_font_awesome"><head>
+   <css src="https://use.fontawesome.com/releases/v5.10.1/css/all.css" src_type="url"/>
+</head>
+</handle><handle id="admin_recaptcha"><head>
+   <css src="Mageplaza_GoogleRecaptcha::css/style.css"/>
+</head>
+</handle><handle id="adminhtml_auth_forgotpassword"><update handle="admin_recaptcha"/>
+<body>
+   <referenceContainer name="form.additional.info">
+      <block class="Mageplaza\GoogleRecaptcha\Block\Adminhtml\Captcha" name="mageplaza_adminhtml_captcha_login" template="Mageplaza_GoogleRecaptcha::captcha.phtml"/>
+   </referenceContainer>
+</body>
+</handle><handle id="adminhtml_auth_login"><update handle="admin_recaptcha"/>
+<body>
+   <referenceContainer name="form.additional.info">
+      <block class="Mageplaza\GoogleRecaptcha\Block\Adminhtml\Captcha" name="mageplaza_adminhtml_captcha_login" template="Mageplaza_GoogleRecaptcha::captcha.phtml"/>
+   </referenceContainer>
+</body>
+</handle><handle id="msp_recaptcha"><head>
+   <remove src="https://www.google.com/recaptcha/api.js"/>
+</head>
+</handle><handle id="adminhtml_smtp_abandonedcart"><update handle="styles"/>
+<body>
+   <referenceContainer name="content">
+      <uiComponent name="mpsmtp_abandoned_cart_grid"/>
+   </referenceContainer>
+</body>
+</handle><handle id="adminhtml_smtp_abandonedcart_view"><update handle="editor"/>
+<update handle="sales_order_create_item_price"/>
+<body>
+   <referenceContainer name="content">
+      <block class="Mageplaza\Smtp\Block\Adminhtml\AbandonedCart\Edit" name="mageplaza_giftcard_code_edit"/>
+   </referenceContainer>
+</body>
+</handle><handle id="adminhtml_smtp_log"><update handle="styles"/>
+<body>
+   <referenceContainer name="content">
+      <uiComponent name="mpsmtp_emails_log_grid"/>
+   </referenceContainer>
+</body>
+</handle><handle id="adminhtml_system_account_index"><head>
+   <css src="Mageplaza_TwoFactorAuth::css/style.css"/>
+   <css src="Mageplaza_Core::css/colors.css"/>
+</head>
+<body>
+   <referenceContainer name="content">
+      <block class="Magento\Backend\Block\Template" template="Mageplaza_TwoFactorAuth::user/form.phtml" name="mp.twofactorauth.form.before" as="mp_form_before"/>
+   </referenceContainer>
+</body>
+</handle><handle id="mptwofactorauth_google_authindex"><update handle="admin_login"/>
+<head>
+   <css src="Mageplaza_TwoFactorAuth::css/style.css"/>
+</head>
+<body>
+   <referenceContainer name="login.content">
+      <block class="Mageplaza\TwoFactorAuth\Block\Adminhtml\User\AuthLogin" template="Mageplaza_TwoFactorAuth::user/auth-login.phtml" name="mp.import.form.before" as="mp_form_before"/>
+   </referenceContainer>
+</body>
 </handle><handle id="adminhtml_system_config_edit"><head>
    <css src="PayPal_Braintree::styles.css"/>
    <script src="PayPal_Braintree::js/system.js"/>
